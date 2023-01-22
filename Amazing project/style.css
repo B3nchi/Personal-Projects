@@ -70,10 +70,10 @@
     background-color: rgb(219, 188, 131);
     border: 10px solid white;
     border-radius:5px;
-    border-color:rgb(240, 167, 77);
+    border-color:rgb(68, 174, 245);
 
     
-    background-image: linear-gradient(to right, #bda8a8, #f90000);
+    background-image: linear-gradient(to right, #a8babd, #00d4f9);
     pointer-events: none;
 }
 
