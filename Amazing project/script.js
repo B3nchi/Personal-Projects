@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 btn.innerText = `Cooling down... ${cooldown}`;
                 if (cooldown === 0) {
                     clearInterval(timerId);
-                    btn.innerText = "Click me";
+                    btn.innerText = "CLICK ME";
                     cooldown = 2;
                     buttonEnabled = true;
                     btn.classList.remove('cooldown'); 
