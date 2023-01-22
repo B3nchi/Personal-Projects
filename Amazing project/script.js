@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     gifVisible = true;
                 }
             }
-
+            // Nice cooldown button
             // Start cooldown
             btn.innerText = `Cooling down... ${cooldown}`;
             btn.classList.add('cooldown'); //
