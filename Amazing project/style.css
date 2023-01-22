@@ -1,0 +1,152 @@
+@keyframes slideInLeft{
+    from{
+        transform:  translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+.heading-1{
+   
+    top: 40%;
+    left: 63%;
+    position: absolute;
+
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-fill-mode: forward;
+
+    transform: translateX(-300px)
+
+}
+
+.btn{
+    
+    z-index: 2;
+    left: 45%;
+    top: 46%;
+    position: absolute;
+
+    cursor: pointer;
+    background: transparent;
+
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: white;
+    background-color: pink;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    border-color: palevioletred;
+
+    transition: all 0.3s;
+
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    background-color: aqua;
+    color:white;
+    border-color: cadetblue;
+    
+}
+
+.btn.cooldown {
+    z-index: 2;
+    left: 44%;
+    top: 50%;
+    position: absolute;
+    cursor: pointer;
+    background: transparent;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.2em 1em;
+    color: rgb(238, 239, 241); 
+    background-color: rgb(219, 188, 131);
+    border: 10px solid white;
+    border-radius:5px;
+    border-color:rgb(240, 167, 77);
+
+    
+    background-image: linear-gradient(to right, #bda8a8, #f90000);
+    pointer-events: none;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: background-color 1s ease-in-out;
+}
+section img {
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+footer {
+    z-index: 3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0.5em;
+    text-align: center;
+    transition: background-color 1s ease-in-out;
+}
+    
+footer h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+    
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.footer-color {
+    background-color: white;
+    color: black;
+}
+.footer-color.black {
+    background-color: black;
+    color: white;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}  
+footer li {
+    margin: 0 0.5em;
+} 
+footer li img {
+    width: 2em;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+}
+footer li img:hover {
+    transform: scale(1.2);
+} 
+
+.gif-element {
+    position: absolute;
+    top: 10%; 
+    left: 10%;
+    right: 100%; 
+    bottom: 20%;
+    z-index: 1; 
+}
+
